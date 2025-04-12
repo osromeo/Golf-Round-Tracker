@@ -1,23 +1,46 @@
-# Golf-Round-Tracker
+# Golf Round Tracker
+Golf Round Tracker is a comprehensive application designed to help golf enthusiasts record, analyze, and improve their game. The program allows users to log golf rounds, record scores, track performance statistics, and review historical data—all through an intuitive user interface.
 
-Owen Romeo
+Table of Contents
+Overview
 
-My program collects data about a golf round and prints it to the console and an outfile
-It creates hole objects of subtype Par3 Par4 and Par5.
-As of submission the program lacks logic to handle user input that doesn't make sense in the context of the game.
-For example if a player had 3 putts on a par four and didn't hit the green in regulation (gir = false) then the best the player could score on this hole is a 6 but the program would accept par as a valid input.
+-   Features
 
-Mod 2 concepts:
-Inheritance (Par 3/Par 4/ Par5)
-File output
+-   Technologies Used
 
-Future work on this project:
-I want to add an interface to the program, and I think adding more logic (Specifically to the club used in Par3) would help to make this program more usable
-I think that adding fun calculations as well as a class that reads rounds into the file would be extremely usefull too.
+-   Installation and Setup
 
-I used sites like chat gpt, W3Schools, GeeksforGeeks, and Youtube for explinations/example code which I tailored to use specifically for this project.
+-   Credits and Attributions
 
-I think that I deserve a 35 for the main program complexity and usability because the main program successfully uses the different subclasses of the hole object and correctly validates the user input types.
-I think that I deserve a 15 for the testing program because it fails to account for logic errors around creating a hole object with more putts than strokes (score), but it does pass all the test cases and is well organized
-I think that I deserve a 20 for the Is-A relationship with my hole objects because they use the subclass type in a way that makes sense and improves usability, they all include one overide method and a method and value unique to the class.
-I think I deserve a 3 for the I/O file because I only write to an out file and dont actually take the information back into the file to manipulate.
+-   Citations and References
+
+# Overview
+Golf Round Tracker was built to streamline the process of tracking golf rounds and improving gameplay through data analysis whether you are a casual golfer or a seasoned pro
+
+Features: 
+
+-   Log detailed round information.
+
+-   Analyze performance trends over time.
+
+-   Compare scores across different courses.
+
+-   Maintain a personal history of your golf experiences.
+
+
+Technologies Used
+The project leverages a combination of modern technologies to ensure a robust and maintainable code base. Key technologies include:
+
+# Installation and Setup
+To set up the Golf Round Tracker on your local machine, please follow these steps:
+
+Clone the Repository:
+
+Copy
+git clone https://github.com/osromeo/Golf-Round-Tracker.git
+
+For additional instructions or troubleshooting, please consult the documentation folder or contact the project maintainer.
+
+# Credits and Attributions
+Starter Code and Project Layout:
+This project includes starter code provided by osromeo, which helped set up the overall structure and initial implementation. Full credit is given to osromeo for the foundational work on the repository.
